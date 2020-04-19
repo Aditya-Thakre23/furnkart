@@ -1,5 +1,5 @@
 var imgPath = document.querySelector("p").innerHTML;
-var imgID2 = document.querySelector("#id2").innerHTML;
+var imgID2 = document.querySelector("#id2").innerHTML;//location of the transarent images
 $(document).ready(function(){
   $("#demo").vc3dEye({
     imagePath: imgPath, // the location where you’ve put the images.

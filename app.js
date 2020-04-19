@@ -33,7 +33,7 @@ app.post("/rotate", function(req, res){
   imageID = req.body.butt;
   //console.log(imageID);
   let imagePath = "img360/"+imageID+"/";
-  let imgID2 = "img/"+imageID+".png";
+  let imgID2 = "img/transparent-img/"+imageID+".png";
   res.render("rotate", {imagePath: imagePath, imgID2: imgID2});
 });
 app.post("/ARView", function(req, res){
